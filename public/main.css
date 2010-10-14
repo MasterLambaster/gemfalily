@@ -1,0 +1,150 @@
+@import "reset.css";
+
+html {
+  color:#252525;
+  background:none repeat scroll 0 0 #E8E8E8;
+}
+body {
+  /*font:small/1.7em "Helvetica Neue",Helvetica,arial,sans-serif;*/
+  font:100%/1.5 sans-serif;
+}
+#headwrap {
+  width:960px;
+  margin: 0 auto;
+}
+#masterhead {
+  background-color: #E00000;
+  color: #fff;
+  text-align:right;
+  height:80px;
+}
+
+#masterhead h1 {
+  font:100%/1.5 sans-serif;
+  font-weight:bold;
+  padding:10px 7px 0 0;
+  font-size:3em;
+  float:left;
+}
+
+#menu ul{
+  float:left;
+  margin: 0 auto;
+  padding: 51px 0 0 10px;
+}
+#menu li {
+  display:block;
+  float:left;
+  font-weight: bold;
+  margin: 0 10px 0 0;
+  font-family:tahoma;
+}
+
+#menu a {
+  color: #fff;
+  font-size: 11px;
+}
+
+#menu li a:hover {
+  beckground-color: #CB2929;
+}
+
+#search .button {
+  -moz-border-radius:0 2px 2px 0;
+  background:none repeat scroll 0 0 #E5E5E5;
+  border:0 none;
+  color:#999999;
+  height:26px;
+  margin:0;
+  padding:3px 0 4px;
+  width:38px;
+}
+#search .input {
+  -moz-border-radius-bottomleft:2px;
+  -moz-border-radius-topleft:2px;
+  background:none repeat scroll 0 0 #FFFFFF;
+  border:0 none;
+  color:#969696;
+  font-size:13px;
+  margin:0;
+  padding:4px 2px 4px 0;
+  width:204px;
+}
+
+#search form {
+  -moz-border-radius:2px 2px 2px 2px;
+  background:none repeat scroll 0 0 #FFFFFF;
+  float:right;
+  margin:46px 0 0;
+  padding:0;
+  width:250px;
+}
+
+#main {
+  text-align:left;
+  width: 960px;
+  margin:0 auto;
+  /*background-color: #fff;
+  -moz-box-shadow:0 0 4.5em #C3C3C3;*/
+}
+a {
+  color: #3C619E;
+  text-decoration:none;
+}
+a:hover {
+  text-decoration:underline;
+}
+article {
+  clear:both;
+  margin-bottom:3em;
+  margin-top: 1em;
+}
+
+article h1 {
+  font-size:1.625em;
+  line-height:1.38461em;
+  font-weight:normal;
+  margin-bottom:0.923em;
+  border-bottom:0.125em solid #C3C3C3;
+}
+h1 small {
+  font-size: 0.8em;
+  color: #C3C3C3;
+}
+
+section h2 {
+  font-size:1em;
+}
+
+img {
+  max-width:100%;
+  display:block;
+  border: 1px solid #C3C3C3
+}
+
+.links {
+  background:none repeat scroll 0 0 #F1F1F1;
+  margin: 1.5em 0;
+  padding:1.5em;
+      -webkit-box-shadow: 0 0 4.5em rgb(195,195,195);
+       -moz-box-shadow: 0 0 4.5em rgb(195,195,195);
+            box-shadow: 0 0 4.5em rgb(195,195,195);
+}
+
+footer{
+  border-top:0.125em solid #C3C3C3;
+  padding-bottom:4.5em;
+  padding-top:0.375em;
+  width:960px;
+  margin: 35px auto 0 auto;
+}
+
+#ribbon {
+  position: absolute;
+  top:0;
+  right:0;
+  border:0;
+}
+#ribbon img {
+  border:none;
+}

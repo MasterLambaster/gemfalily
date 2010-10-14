@@ -1,0 +1,52 @@
+GIT
+  remote: git://github.com/mislav/will_paginate.git
+  revision: 36159385c8a5837fc63fe901ebe0a88205b5ce8d
+  branch: rails3
+  specs:
+    will_paginate (3.0.pre2)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    activesupport (2.3.8)
+    backports (1.18.1)
+    bson (1.0.7)
+    bson_ext (1.0.7)
+    haml (3.0.18)
+    mongo (1.0.8)
+      bson (>= 1.0.5)
+    monkey-lib (0.5.3)
+      backports
+    rack (1.2.1)
+    ruby-graphviz (0.9.17)
+    sinatra (1.0)
+      rack (>= 1.0)
+    sinatra-advanced-routes (0.5.1)
+      monkey-lib (~> 0.5.0)
+      sinatra (~> 1.0)
+      sinatra-sugar (~> 0.5.0)
+    sinatra-cache (0.3.4)
+      sinatra (>= 1.0)
+      sinatra-outputbuffer (>= 0.1.0)
+    sinatra-outputbuffer (0.1.0)
+      sinatra (>= 1.0.a)
+    sinatra-reloader (0.5.0)
+      sinatra (~> 1.0)
+      sinatra-advanced-routes (~> 0.5.0)
+    sinatra-sugar (0.5.0)
+      monkey-lib (~> 0.5.0)
+      sinatra (~> 1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  activesupport (= 2.3.8)
+  bson_ext
+  haml
+  mongo
+  ruby-graphviz
+  sinatra
+  sinatra-cache
+  sinatra-reloader
+  will_paginate!
